@@ -1,0 +1,62 @@
+#navbar {
+height: 3vw;
+width: 60vw;
+border-radius: 2vw;
+font-size: 18px;
+padding-left: 2vw;
+}
+.navbar{
+    text-align: center;
+}
+
+#nav{
+    display: flex;
+justify-content: space-evenly;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#section{
+    width: 100%;
+   
+}
+#main-box{
+   width: 10vw;
+   display: grid;
+   grid-template-columns: 100px 100px 100px 100px  ;
+   column-gap: 19vw;
+   row-gap: 1vw;
+}
+
+
+#img {
+    height: 24vw;
+    width: 25vw;
+}
+#div1{
+    height: 24vw;
+    width: 25vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#nature:hover,#car:hover,#music:hover,#cartoon:hover,#tech:hover,#marvel:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#like{
+    position: relative;
+    bottom: 4vw;
+    /* border: 2px solid black; */
+    /* height: 1vw; */
+    height: auto;
+    width: 10vw;
+font-size: 1.5vw;
+text-align: center;
+padding-top: 2vw;
+color: yellow;
+opacity: 0.8;
+}
+
+/* likes */
